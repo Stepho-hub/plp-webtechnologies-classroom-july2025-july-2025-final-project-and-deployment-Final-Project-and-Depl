@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Somtech Technologies</title>
+    <meta name="description" content="Contact Somtech Technologies for professional cleaning services and disinfectant products. Get in touch with our expert team today.">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <h1>Somtech Technologies</h1>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="services.html" class="nav-link">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="products.html" class="nav-link">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link active">Contact</a>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>Get in touch with our expert team for all your cleaning needs</p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Contact Section -->
+        <section class="contact">
+            <div class="container">
+                <div class="contact-content">
+                    <!-- Contact Form -->
+                    <div class="contact-form-section">
+                        <h2>Send Us a Message</h2>
+                        <p>Ready to discuss your cleaning needs? Fill out the form below and our team will get back to you within 24 hours.</p>
+                        
+                        <form class="contact-form" id="contactForm" novalidate>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="firstName">First Name *</label>
+                                    <input type="text" id="firstName" name="firstName" required>
+                                    <span class="error-message" id="firstNameError"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label for="lastName">Last Name *</label>
+                                    <input type="text" id="lastName" name="lastName" required>
+                                    <span class="error-message" id="lastNameError"></span>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required>
+                                <span class="error-message" id="emailError"></span>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="phone">Phone Number *</label>
+                                <input type="tel" id="phone" name="phone" required>
+                                <span class="error-message" id="phoneError"></span>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="service">Service Interest</label>
+                                <select id="service" name="service">
+                                    <option value="">Select a service...</option>
+                                    <option value="industrial">Industrial Cleaning</option>
+                                    <option value="commercial">Commercial Cleaning</option>
+                                    <option value="environmental">Environmental Cleaning</option>
+                                    <option value="products">Product Information</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Message *</label>
+                                <textarea id="message" name="message" rows="6" required placeholder="Tell us about your cleaning needs, project details, or any questions you have..."></textarea>
+                                <span class="error-message" id="messageError"></span>
+                            </div>
+                            
+                            <button type="submit" class="btn-primary">Send Message</button>
+                        </form>
+                        
+                        <div class="form-success" id="formSuccess" style="display: none;">
+                            <h3>✅ Message Sent Successfully!</h3>
+                            <p>Thank you for contacting us. We'll get back to you within 24 hours.</p>
+                        </div>
+                    </div>
+
+                    <!-- Contact Information -->
+                    <div class="contact-info-section">
+                        <h2>Get in Touch</h2>
+                        <p>We're here to help with all your cleaning and disinfectant needs. Reach out to us through any of the channels below.</p>
+                        
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <div class="contact-icon">📍</div>
+                                <div class="contact-details">
+                                    <h3>Our Location</h3>
+                                    <p>53 Butere Road<br>
+                                    Business City, 3rd Floor<br>
+                                    Industrial Area</p>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-icon">📞</div>
+                                <div class="contact-details">
+                                    <h3>Phone</h3>
+                                    <p><strong>Main:</strong> (+254) 0746852868<br>
+                                    <strong>Emergency:</strong> (+254) 746852868<br>
+                                    <strong>Fax:</strong> (+254) 123-4569</p>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-icon">✉️</div>
+                                <div class="contact-details">
+                                    <h3>Email</h3>
+                                    <p><strong>General:</strong> somtechhub@gmail.com<br>
+                                    <strong>Sales:</strong> sales@somtechhub.com<br>
+                                    <strong>Support:</strong> support@somtechhub.com</p>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-icon">⏰</div>
+                                <div class="contact-details">
+                                    <h3>Business Hours</h3>
+                                    <p><strong>Monday - Friday:</strong> 7:00 AM - 6:00 PM<br>
+                                    <strong>Saturday:</strong> Closed<br>
+                                    <strong>Sunday:</strong> Emergency only<br>
+                                    <strong>24/7 Emergency Service Available</strong></p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Map Placeholder -->
+                        <div class="map-placeholder">
+                            <div class="map-content">
+                                <h3>📍 Find Us Here</h3>
+                                <p>Located in the heart of the business district, easily accessible by car or public transport.</p>
+                                <div class="map-directions">
+                                    <p><strong>Directions:</strong> From Bunyala Road off Mombasa road head towards Commercial Street and take round about towards Dunga Road. After Chogoria Road, exit towards Butere Road. We're in the blue building on the left.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Emergency Contact Section -->
+        <section class="emergency-contact">
+            <div class="container">
+                <div class="emergency-content">
+                    <h2>🚨 Emergency Cleaning Services</h2>
+                    <p>Need immediate cleaning assistance? We provide 24/7 emergency services for urgent situations.</p>
+                    <div class="emergency-info">
+                        <div class="emergency-item">
+                            <h3>Emergency Hotline</h3>
+                            <a href="tel:0746852868" class="emergency-phone">(+254) 0746852868</a>
+                        </div>
+                        <div class="emergency-item">
+                            <h3>Response Time</h3>
+                            <p>Within 2 hours in Industrial area</p>
+                        </div>
+                        <div class="emergency-item">
+                            <h3>Services Include</h3>
+                            <p>Spill cleanup, flood damage, biohazard cleanup</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq">
+            <div class="container">
+                <h2>Frequently Asked Questions</h2>
+                <div class="faq-grid">
+                    <div class="faq-item">
+                        <h3>Do you provide free estimates?</h3>
+                        <p>Yes! We provide free, no-obligation estimates for all our services. Contact us to schedule your consultation.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>Are your products safe for children and pets?</h3>
+                        <p>Absolutely. All our products are formulated to be safe when used as directed, with many eco-friendly options available.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>What areas do you serve?</h3>
+                        <p>We serve the entire metro area and surrounding counties. Contact us to confirm service availability in your location.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>Do you offer recurring cleaning services?</h3>
+                        <p>Yes, we offer flexible scheduling options including daily, weekly, monthly, and quarterly service plans.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Somtech Technologies</h3>
+                    <p>Leading provider of professional cleaning services and household disinfectant products.</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/" aria-label="Facebook">Fb</a>
+                        <a href="https://x.com/" aria-label="x">x</a>
+                        <a href="https://www.linkedin.com/" aria-label="LinkedIn">Lk</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services.html">Industrial Cleaning</a></li>
+                        <li><a href="services.html">Commercial Cleaning</a></li>
+                        <li><a href="services.html">Environmental Cleaning</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p>📍 53 Butere Road<br>Business City, 3rd floor</p>
+                    <p>📞 (+254) 746852868</p>
+                    <p>✉️ somtechhub@gmail.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Somtech Technologies. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

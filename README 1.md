@@ -93,10 +93,19 @@ somtech-website/
 3. Follow prompts for deployment
 4. Or connect GitHub repository via Vercel dashboard
 
+### GitHuub pages:
+1. Push your project from local directory to your repository.
+2. Ensure your repo is public. Move to settings and click select pages from side bar.
+3. Follow instructions on how to finalize it.
+
+### Live link: https://stepho-hub.github.io/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl/
+
+
 ### Traditional Web Hosting
 1. Upload all files to your web hosting provider
 2. Ensure `index.html` is in the root directory
 3. All relative paths will work correctly
+
 
 ## 💻 Development Setup
 
